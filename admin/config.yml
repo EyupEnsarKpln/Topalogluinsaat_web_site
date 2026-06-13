@@ -1,0 +1,67 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images/uploads"
+public_folder: "images/uploads"
+
+collections:
+  - name: "projeler_koleksiyonu"
+    label: "Projeler Yönetimi"
+    files:
+      - name: "projeler"
+        label: "Projeler Listesi"
+        file: "data/projects.json"
+        fields:
+          - label: "Tüm Projelerimiz"
+            name: "projects"
+            widget: "list"
+            summary: "{{fields.title}} ({{fields.category}})"
+            fields:
+              - label: "Kategori"
+                name: "category"
+                widget: "select"
+                options:
+                  - { label: "Restorasyon", value: "restorasyon" }
+                  - { label: "Demir Döküm", value: "demirdokum" }
+                  - { label: "Tadilat", value: "tadilat" }
+              - label: "Kategori Etiketi"
+                name: "tag"
+                widget: "string"
+                default: "Restorasyon"
+              - label: "Proje Adı"
+                name: "title"
+                widget: "string"
+              - label: "Lokasyon / Yıl (Açıklama)"
+                name: "desc"
+                widget: "string"
+              - label: "Kapak Fotoğrafı"
+                name: "image"
+                widget: "image"
+              - label: "Proje Detaylı Açıklaması"
+                name: "details"
+                widget: "text"
+                required: false
+              - label: "Proje Albümü (Resim & Video)"
+                name: "media"
+                widget: "list"
+                required: false
+                fields:
+                  - label: "Medya Türü"
+                    name: "type"
+                    widget: "select"
+                    default: "image"
+                    options:
+                      - { label: "Resim (imgbb, Unsplash vb. URL)", value: "image" }
+                      - { label: "Video (.mp4 / .webm dosya linki)", value: "video" }
+                      - { label: "YouTube (otomatik algılanır)", value: "video" }
+                      - { label: "Instagram Reel/Post (otomatik algılanır)", value: "video" }
+                      - { label: "Vimeo (otomatik algılanır)", value: "video" }
+                  - label: "URL — Resim veya Video Linki"
+                    name: "url"
+                    widget: "string"
+                    hint: "imgbb resim linki | YouTube: youtube.com/watch?v=... | Shorts: youtube.com/shorts/... | Instagram: instagram.com/reel/... | Vimeo: vimeo.com/... | MP4 dosya linki"
+                  - label: "Açıklama / Altyazı (isteğe bağlı)"
+                    name: "caption"
+                    widget: "string"
+                    required: false
