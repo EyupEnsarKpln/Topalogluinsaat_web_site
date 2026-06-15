@@ -36,8 +36,8 @@ document.addEventListener('DOMContentLoaded', async () => {
             ]
         },
         {
-            category: "demirdokum",
-            tag: "Demir Döküm",
+            category: "celikkonstruksiyon",
+            tag: "Çelik Konstrüksiyon",
             title: "Özel Tasarım Döküm Giriş Kapısı",
             desc: "Tarabya, İstanbul / 2024",
             image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
@@ -91,8 +91,8 @@ document.addEventListener('DOMContentLoaded', async () => {
             ]
         },
         {
-            category: "demirdokum",
-            tag: "Demir Döküm",
+            category: "celikkonstruksiyon",
+            tag: "Çelik Konstrüksiyon",
             title: "El İşçiliği Ferforje Korkuluk",
             desc: "Bebek, İstanbul / 2023",
             image: "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
