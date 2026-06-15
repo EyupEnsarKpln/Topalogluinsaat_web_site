@@ -21,9 +21,9 @@
       ]
     },
     {
-      "category": "demirdokum",
+      "category": "celikkonstruksiyon",
       "tag": "Çelik Konstrüksiyon",
-      "title": "Özel Tasarım Döküm işlerimiz",
+      "title": "Özel Tasarım Çelik Konstrüksiyon",
       "desc": "Tarabya, İstanbul / 2024",
       "image": "https://res.cloudinary.com/dvlzvmawt/image/upload/q_auto/f_auto/v1781353107/pexels-photo-37153344_feodvp.avif",
       "details": "Özel müşterimiz için yaptığımız çelik konstrüksiyon işlerimizden kareler.",
@@ -35,8 +35,8 @@
         },
         {
           "type": "video",
-          "url": "https://www.pexels.com/download/video/8087633/",
-          "caption": "Saha alanında ki ekip arkadaşlarımızdan kareler"
+          "url": "https://www.youtube.com/shorts/9GsDDjfIcS0?feature=share",
+          "caption": "Yaptığımız işlerden bir kare."
         },
         {
           "type": "image",
@@ -54,9 +54,9 @@
       "category": "tadilat",
       "tag": "Tadilat",
       "title": "Lüks Villa Komple Tadilatı",
-      "desc": "Çeşme, İzmir / 2023",
+      "desc": "Sakarya, Sapanca / 2024",
       "image": "https://res.cloudinary.com/dvlzvmawt/image/upload/q_auto/f_auto/v1781354189/pexels-40037226-7667624_ixwm2g.jpg",
-      "details": "Çeşme'de yer alan özel villanın iç ve dış mekanlarının anahtar teslim komple renovasyonu. Projede sıhhi ve elektrik tesisatları yenilenmiş, modern iç mimari detaylarla yaşam alanları genişletilmiştir.",
+      "details": "Sapanca'da yer alan özel villanın iç ve dış mekanlarının anahtar teslim komple renovasyonu. Projede sıhhi ve elektrik tesisatları yenilenmiş, modern iç mimari detaylarla yaşam alanları genişletilmiştir.",
       "media": [
         {
           "type": "image",
