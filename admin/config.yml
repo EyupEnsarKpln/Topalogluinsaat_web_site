@@ -23,7 +23,7 @@ collections:
                 widget: "select"
                 options:
                   - { label: "Restorasyon", value: "restorasyon" }
-                  - { label: "Demir Döküm", value: "demirdokum" }
+                  - { label: "Çelik Konstrüksiyon", value: "celikkonstruksiyon" }
                   - { label: "Tadilat", value: "tadilat" }
               - label: "Kategori Etiketi"
                 name: "tag"
